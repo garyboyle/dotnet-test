@@ -10,6 +10,8 @@ The `global.json` file determines what .NET SDK should be used.  This is similar
 
 ## Useful links
 - [VS Code: Working with C#](https://code.visualstudio.com/docs/languages/csharp)
+- [VS Code: Using .NET Core in Visual Studio Code](https://code.visualstudio.com/docs/languages/dotnet)
+- [VS Code: Create a .NET console application using Visual Studio Code](https://docs.microsoft.com/en-us/dotnet/core/tutorials/with-visual-studio-code#debug)
 - [Get started with VS Code using C# and .NET Core on Windows](https://channel9.msdn.com/Blogs/dotnet/Get-started-VSCode-Csharp-NET-Core-Windows)
 
 
