@@ -1,4 +1,4 @@
-# .Net Test Pre
+# .Net Test Project
 
 A sample C# project to work out the development environment.
 
