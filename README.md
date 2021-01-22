@@ -16,7 +16,7 @@ The `global.json` file determines what .NET SDK should be used.  This is similar
 - [Get started with VS Code using C# and .NET Core on Windows](https://channel9.msdn.com/Blogs/dotnet/Get-started-VSCode-Csharp-NET-Core-Windows)
 - [Containerize a .NET Core app](https://docs.microsoft.com/en-us/dotnet/core/docker/build-container?tabs=windows)
 
-# Node commands in .NET
+# Node commands/file equivalents in .NET
 
 |node.js                 |.NET                       |
 |------------------------|---------------------------|
