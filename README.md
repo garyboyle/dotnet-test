@@ -23,3 +23,4 @@ The `global.json` file determines what .NET SDK should be used.  This is similar
 |`nodemon`               |`dotnet watch run`         |
 |`npm start`             |`dotnet run`               |
 |`npm build --production`|`dotnet publish -c Release`|
+|`.nvmrc`                |`global.json`              |
