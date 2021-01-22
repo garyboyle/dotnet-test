@@ -18,9 +18,10 @@ The `global.json` file determines what .NET SDK should be used.  This is similar
 
 # Node commands/file equivalents in .NET
 
-|node.js                 |.NET                       |
-|------------------------|---------------------------|
-|`nodemon`               |`dotnet watch run`         |
-|`npm start`             |`dotnet run`               |
-|`npm build --production`|`dotnet publish -c Release`|
-|`.nvmrc`                |`global.json`              |
+|node.js                 |.NET                               |
+|------------------------|-----------------------------------|
+|`nodemon`               |`dotnet watch run`                 |
+|`npm start`             |`dotnet run`                       |
+|`npm build --production`|`dotnet publish -c Release`        |
+|`.nvmrc`                |`global.json`                      |
+|`npm i <package-name>`  |`dotnet add package <package-name>`|
