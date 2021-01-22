@@ -2,9 +2,9 @@
 
 A sample C# project to work out the development environment.
 
-This project was created using the `dotnet new console` [.NET CLI command](https://docs.microsoft.com/en-us/dotnet/core/tools/) with the .NET Core 3.1 SDK.
+This project was created using the `dotnet new webapi` [.NET CLI command](https://docs.microsoft.com/en-us/dotnet/core/tools/) with the .NET Core 3.1 SDK.
 
-Use the `dotnet run` command to run the project.
+Use the `dotnet run` command to run the project.  To watch for changes run `dotnet watch run`.
 
 The `global.json` file determines what .NET SDK should be used.  This is similar in behaviour to a `.nvmrc` file.  More information here: https://docs.microsoft.com/en-us/dotnet/core/versions/selection#the-sdk-uses-the-latest-installed-version
 
@@ -25,3 +25,4 @@ The `global.json` file determines what .NET SDK should be used.  This is similar
 |`npm build --production`|`dotnet publish -c Release`        |
 |`.nvmrc`                |`global.json`                      |
 |`npm i <package-name>`  |`dotnet add package <package-name>`|
+|`nvm ls`                |`dotnet --list-sdks`               |
