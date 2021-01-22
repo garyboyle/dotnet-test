@@ -8,6 +8,13 @@ Use the `dotnet run` command to run the project.  To watch for changes run `dotn
 
 The `global.json` file determines what .NET SDK should be used.  This is similar in behaviour to a `.nvmrc` file.  More information here: https://docs.microsoft.com/en-us/dotnet/core/versions/selection#the-sdk-uses-the-latest-installed-version
 
+# Docker
+
+The project can be started as a container.  The `Dockerfile` is based heavily on the  [Dockerize an ASP.NET Core application](https://docs.docker.com/engine/examples/dotnetcore/) article from Docker docs.
+
+To create an image run `docker build -t dotnet-test .`
+To run the image run `docker run -d -p 8080:80 --name myapp dotnet-test`
+
 ## Useful links
 - [VS Code: Working with C#](https://code.visualstudio.com/docs/languages/csharp)
 - [VS Code: Using .NET Core in Visual Studio Code](https://code.visualstudio.com/docs/languages/dotnet)
