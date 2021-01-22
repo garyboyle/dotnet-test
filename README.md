@@ -15,6 +15,8 @@ The project can be started as a container.  The `Dockerfile` is based heavily on
 To create an image run `docker build -t dotnet-test .`
 To run the image run `docker run -d -p 8080:80 --name myapp dotnet-test`
 
+Or, with docker compose, run `docker-compose up`
+
 ## Useful links
 - [VS Code: Working with C#](https://code.visualstudio.com/docs/languages/csharp)
 - [VS Code: Using .NET Core in Visual Studio Code](https://code.visualstudio.com/docs/languages/dotnet)
