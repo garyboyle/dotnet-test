@@ -12,7 +12,7 @@ RUN dotnet restore
 COPY . ./
 RUN dotnet publish -c Release -o out
 
-# Stage 1 - Run the build
+# Stage 2 - Run the build
 FROM mcr.microsoft.com/dotnet/aspnet:5.0
 WORKDIR /app
 COPY --from=build-env /app/out .
