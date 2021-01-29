@@ -34,4 +34,6 @@ Or, with docker compose, run `docker-compose up`
 |`npm build --production`|`dotnet publish -c Release`        |
 |`.nvmrc`                |`global.json`                      |
 |`npm i <package-name>`  |`dotnet add package <package-name>`|
+|`npm i`                 |`dotnet restore>`                  |
 |`nvm ls`                |`dotnet --list-sdks`               |
+|`node test.js`          |`dotnet dotnettest.dll`            |
