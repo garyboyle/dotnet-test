@@ -7,8 +7,8 @@
        "name": "dotnettest",
        "portMappings": [
           {
-             "containerPort": 5001,
-             "hostPort": 5001
+             "containerPort": 80,
+             "hostPort": 80
           }
        ]
     }

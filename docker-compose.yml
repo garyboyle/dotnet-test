@@ -4,4 +4,4 @@ services:
     build:
       context: .
     ports:
-      - 4010:80
+      - 80:80
