@@ -1,4 +1,6 @@
-sudo: required
+language: csharp
+mono: none
+dotnet: 5.0.2
 
 services:
   - docker
@@ -7,7 +9,7 @@ before_install:
   - docker build -t shayoo/dotnettest .
 
 script:
-  - echo "tests here"
+  - dotnet restore
 
 after_sucess:
   - echo "$DOCKER_PASSWORD" | docker login - "$DOCKER_ID" --password-stdin
