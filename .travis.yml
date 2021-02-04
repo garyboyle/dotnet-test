@@ -5,7 +5,7 @@ before_install:
   - docker build -t shayoo/dotnettest .
 
 script:
-  - dotnet restore
+  - docker run shayoo/dotnettest dotnet restore
 
 after_success:
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
