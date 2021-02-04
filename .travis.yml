@@ -10,3 +10,15 @@ script:
 after_success:
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
   - docker push shayoo/dotnettest
+
+deploy:
+  provider: elasticbeanstalk
+  region: us-east-1
+  app: dotnettest3
+  env: Dotnettest3-env
+  bucket_name: elasticbeanstalk-eu-west-1-322845887271
+  bucket_path: dotnettest3
+  on:
+    branch: master
+  access_key_id: $AWS_ACCESS_KEY
+  secret_access_key: $AWS_SECRET_ACCESS_KEY

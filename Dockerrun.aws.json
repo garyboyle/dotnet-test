@@ -1,0 +1,17 @@
+{
+  "AWSEBDockerVersion": 2,
+  "containerDefinitions": [
+    {
+       "essential": false,
+       "image": "shayoo/dotnettest",
+       "name": "dotnettest",
+       "portMappings": [
+          {
+             "containerPort": 5001,
+             "hostPort": 80
+          }
+       ]
+    }
+ ],
+ "memory": "512"
+}
