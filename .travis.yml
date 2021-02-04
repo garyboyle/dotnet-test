@@ -11,6 +11,6 @@ before_install:
 script:
   - dotnet restore
 
-after_sucess:
+after_success:
   - echo "$DOCKER_PASSWORD" | docker login - "$DOCKER_ID" --password-stdin
   - docker push shayoo/dotnettest
