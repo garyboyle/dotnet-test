@@ -47,3 +47,11 @@ Runn the script: `dotnet script hello.csx`
 |`npm i`                 |`dotnet restore>`                  |
 |`nvm ls`                |`dotnet --list-sdks`               |
 |`node test.js`          |`dotnet dotnettest.dll`            |
+
+# Continuous Integration
+The app is configured to use [Travis CI](https://www.travis-ci.com/github/garyboyle/dotnettest).
+
+On a commit to main Travis will:
+1. build the latest image
+1. push this image to [docker hub](https://hub.docker.com/r/shayoo/dotnettest)
+1. deploy this to image to AWS Elastic Beanstalk
