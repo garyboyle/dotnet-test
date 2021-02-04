@@ -1,0 +1,14 @@
+sudo: required
+
+services:
+  - docker
+
+before_install:
+  - docker build -t shayoo/dotnettest .
+
+script:
+  - echo "tests here"
+
+after_sucess:
+  - echo "$DOCKER_PASSWORD" | docker login - "$DOCKER_ID" --password-stdin
+  - docker push shayoo/dotnettest
