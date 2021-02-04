@@ -1,5 +1,5 @@
 {
-  "AWSEBDockerVersion": 2,
+  "AWSEBDockerVersion": 1,
   "containerDefinitions": [
     {
        "essential": false,
