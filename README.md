@@ -48,7 +48,7 @@ Runn the script: `dotnet script hello.csx`
 |`nvm ls`                |`dotnet --list-sdks`               |
 |`node test.js`          |`dotnet dotnettest.dll`            |
 
-# Continuous Integration
+# Continuous Integration & Continuous Deployment
 The app is configured to use [Travis CI](https://www.travis-ci.com/github/garyboyle/dotnettest).
 
 On a commit to main Travis will:
