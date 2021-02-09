@@ -20,5 +20,5 @@ deploy:
   bucket_path: dotnettest3
   on:
     branch: main
-  access_key_id: $AWS_ACCESS_KEY_ID
+  access_key_id: $AWS_ACCESS_KEY
   secret_access_key: $AWS_SECRET_ACCESS_KEY

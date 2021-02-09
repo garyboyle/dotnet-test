@@ -15,6 +15,7 @@ The `global.json` file determines what .NET SDK should be used.  This is similar
 - [VS Code: Debug a .NET console application using Visual Studio Code](https://docs.microsoft.com/en-us/dotnet/core/tutorials/debugging-with-visual-studio-code)
 - [Get started with VS Code using C# and .NET Core on Windows](https://channel9.msdn.com/Blogs/dotnet/Get-started-VSCode-Csharp-NET-Core-Windows)
 - [Containerize a .NET Core app](https://docs.microsoft.com/en-us/dotnet/core/docker/build-container?tabs=windows)
+- [Deploying to a Digital Ocean Droplet](https://stackabuse.com/deploying-a-node-js-app-to-a-digitalocean-droplet-with-docker/)
 
 # Docker
 
