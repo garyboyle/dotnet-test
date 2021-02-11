@@ -38,16 +38,17 @@ Runn the script: `dotnet script hello.csx`
 
 # Node commands/file equivalents in .NET
 
-|node.js                 |.NET                               |
-|------------------------|-----------------------------------|
-|`nodemon`               |`dotnet watch run`                 |
-|`npm start`             |`dotnet run`                       |
-|`npm build --production`|`dotnet publish -c Release`        |
-|`.nvmrc`                |`global.json`                      |
-|`npm i <package-name>`  |`dotnet add package <package-name>`|
-|`npm i`                 |`dotnet restore>`                  |
-|`nvm ls`                |`dotnet --list-sdks`               |
-|`node test.js`          |`dotnet dotnettest.dll`            |
+|node.js                         |.NET                                            |
+|--------------------------------|------------------------------------------------|
+|`nodemon`                       |`dotnet watch run`                              |
+|`npm start`                     |`dotnet run`                                    |
+|`npm build --production`        |`dotnet publish -c Release`                     |
+|`.nvmrc`                        |`global.json`                                   |
+|`npm i <package-name>`          |`dotnet add package <package-name>`             |
+|`npm i <package-name>@<version>`|`dotnet add package <package-name> -v <version>`|
+|`npm i`                         |`dotnet restore`                                |
+|`nvm ls`                        |`dotnet --list-sdks`                            |
+|`node test.js`                  |`dotnet dotnettest.dll`                         |
 
 # Continuous Integration & Continuous Deployment
 The app is configured to use [Travis CI](https://www.travis-ci.com/github/garyboyle/dotnettest).
